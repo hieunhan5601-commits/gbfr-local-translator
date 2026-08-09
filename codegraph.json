@@ -1,0 +1,8 @@
+{
+  "exclude": [
+    "data/**/*.csv",
+    "data/**/*.json",
+    "runs_hybrid/**",
+    "node_modules/**"
+  ]
+}

@@ -1,0 +1,14 @@
+node_modules/
+.codegraph/
+.codegraph-*/
+runs_hybrid/
+release-gate-output.json
+*.zip
+*.msg
+data.i
+data.i.*
+data/translated_working_*_seed.csv
+data/**/*_private.csv
+data/context/context_layer_v1.json
+temp/
+tmp/

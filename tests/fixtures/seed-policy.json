@@ -1,0 +1,58 @@
+[
+  {
+    "ID": "TXT_FIX_APPROVED",
+    "English": "Approved fixture.",
+    "Vietnamese": "Fixture đã duyệt.",
+    "Local Status": "APPROVED_EXISTING",
+    "Local Source": "BETA3_APPROVED_V015"
+  },
+  {
+    "ID": "TXT_GEEN_FIX_01",
+    "English": "Fatebreaker",
+    "Vietnamese": "Fatebreaker",
+    "Local Status": "KEEP_ENGLISH",
+    "Local Source": "BETA3_PROTECTED_NAME_ID"
+  },
+  {
+    "ID": "TXT_US_PL2900_02",
+    "English": "Miasma Hands",
+    "Vietnamese": "Miasma Hands",
+    "Local Status": "KEEP_ENGLISH",
+    "Local Source": "BETA3_PROTECTED_NAME_ID"
+  },
+  {
+    "ID": "TXT_CMDLIST_PL2700_INFO",
+    "English": "Command: fixture detail",
+    "Vietnamese": "Lệnh: chi tiết fixture",
+    "Local Status": "REVIEW",
+    "Local Source": "BETA3_TECHNICAL_FALSE_POSITIVE"
+  },
+  {
+    "ID": "TXT_FIX_REVIEW",
+    "English": "Review fixture.",
+    "Vietnamese": "Fixture cần duyệt.",
+    "Local Status": "REVIEW",
+    "Local Source": "EDITOR_DRAFT"
+  },
+  {
+    "ID": "TXT_FIX_STORY",
+    "English": "Narrative fixture.",
+    "Vietnamese": "Fixture cốt truyện.",
+    "Local Status": "REVIEW_MANDATORY",
+    "Local Source": "EDITOR_DRAFT"
+  },
+  {
+    "ID": "TXT_FIX_LOCAL_OK",
+    "English": "Local fixture.",
+    "Vietnamese": "Fixture local.",
+    "Local Status": "LOCAL_OK",
+    "Local Source": "LOCAL_MODEL"
+  },
+  {
+    "ID": "TXT_FIX_EMPTY",
+    "English": "",
+    "Vietnamese": "",
+    "Local Status": "SKIP_EMPTY",
+    "Local Source": "EMPTY"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "byId": {
+    "TXT_SYS_TITLE_PRESS_ANY_BUTTON": {
+      "vietnamese": "Nhấn nút bất kỳ",
+      "note": "Tách Credit khỏi lời nhắc màn hình tiêu đề."
+    },
+    "TXT_SYS_TITLE_COPYRIGHT_MARK": {
+      "vietnamese": " ",
+      "note": "Ẩn ký hiệu copyright bằng một khoảng trắng hiển thị."
+    },
+    "TXT_SYS_TITLE_COPYRIGHT": {
+      "vietnamese": "Tý Bóng Ma a.k.a Ác Quỷ Cánh Trái",
+      "note": "Credit khóa nguyên văn ở vùng copyright."
+    }
+  },
+  "byKey": {}
+}
