@@ -1,0 +1,18 @@
+{
+  "candidate": "",
+  "testedAt": "",
+  "tester": "",
+  "humanReview": {
+    "approved": false,
+    "evidence": ""
+  },
+  "p0": {
+    "install": { "status": "PENDING", "evidence": "" },
+    "boot": { "status": "PENDING", "evidence": "" },
+    "main_menu": { "status": "PENDING", "evidence": "" },
+    "translated_ui": { "status": "PENDING", "evidence": "" },
+    "combat_hud": { "status": "PENDING", "evidence": "" },
+    "uninstall": { "status": "PENDING", "evidence": "" },
+    "rollback": { "status": "PENDING", "evidence": "" }
+  }
+}

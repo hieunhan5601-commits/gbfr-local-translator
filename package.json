@@ -1,0 +1,27 @@
+{
+  "name": "gbfr-local-translator",
+  "version": "0.2.0-beta.5-tech",
+  "private": true,
+  "type": "module",
+  "description": "Technical candidate: exact-line Context Layer, immutable dataset contract, P0 release gate and CodeGraph-ready codemap.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "doctor": "node src/hybrid-cli.mjs doctor",
+    "benchmark": "node src/hybrid-cli.mjs benchmark",
+    "stress100": "node src/hybrid-cli.mjs stress100",
+    "production": "node src/hybrid-cli.mjs production",
+    "review-beta4": "node src/beta4-cli.mjs",
+    "release:gate": "node src/release-gate-cli.mjs",
+    "codegraph:init": "codegraph init .",
+    "codegraph:status": "codegraph status",
+    "codegraph:sync": "codegraph sync",
+    "manifest": "node scripts/build-delivery-manifest.mjs",
+    "test": "node --test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@colbymchenry/codegraph": "1.5.0"
+  }
+}

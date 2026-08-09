@@ -1,0 +1,101 @@
+{
+  "metadata": {
+    "schemaVersion": "1.0.0",
+    "generatedAt": "2026-08-09T00:00:00.000Z",
+    "game": "SYNTHETIC_TEST_FIXTURE",
+    "baseline": "SYNTHETIC",
+    "pilotId": "synthetic_locked_line",
+    "lockedContentPolicy": "DO_NOT_RETRANSLATE_WITHOUT_EVIDENCE"
+  },
+  "sources": [
+    {
+      "sourceId": "synthetic_source",
+      "type": "SYNTHETIC",
+      "status": "VERIFIED"
+    }
+  ],
+  "characters": [
+    {
+      "characterId": "fixture_speaker",
+      "name": "Fixture Speaker",
+      "profile": {
+        "voiceStyleVi": "Giọng trung tính dành riêng cho kiểm thử."
+      },
+      "sourceIds": [
+        "synthetic_source"
+      ]
+    }
+  ],
+  "relationships": [],
+  "glossary": [],
+  "scenes": [
+    {
+      "sceneId": "fixture_scene",
+      "order": 1,
+      "title": "Synthetic locked scene",
+      "storyPhase": "TEST",
+      "summary": "Cảnh tổng hợp dùng để kiểm tra exact-line lock.",
+      "participants": [
+        "fixture_speaker"
+      ],
+      "relationshipIds": [],
+      "sourceIds": [
+        "synthetic_source"
+      ],
+      "videoEvidence": {
+        "sourceId": null,
+        "timestampStart": null,
+        "timestampEnd": null,
+        "status": "NOT_APPLICABLE"
+      }
+    }
+  ],
+  "lineContexts": [
+    {
+      "lineKey": "fixture_context.msg\u001f1\u001fTXT_FIXTURE_LOCKED\u001f",
+      "file": "fixture_context.msg",
+      "row": 1,
+      "id": "TXT_FIXTURE_LOCKED",
+      "subId": "",
+      "contentType": "SYNTHETIC_TEST",
+      "english": "Synthetic source line.",
+      "japanese": "",
+      "currentVietnamese": "Dòng nguồn tổng hợp.",
+      "currentStatus": "APPROVED_FIXTURE",
+      "translationPolicy": {
+        "locked": true,
+        "action": "DO_NOT_RETRANSLATE",
+        "reason": "Synthetic exact-line lock fixture"
+      },
+      "sceneId": "fixture_scene",
+      "speakerId": "fixture_speaker",
+      "addresseeIds": [],
+      "focusCharacterIds": [
+        "fixture_speaker"
+      ],
+      "neighborKeys": [],
+      "glossaryIds": [],
+      "relationshipIds": [],
+      "sourceQuality": {
+        "status": "PASS",
+        "issues": []
+      },
+      "videoEvidence": {
+        "sourceId": null,
+        "timestampStart": null,
+        "timestampEnd": null,
+        "status": "NOT_APPLICABLE"
+      },
+      "confidence": {
+        "exactLineMapping": 1,
+        "speaker": 1,
+        "scene": 1,
+        "relationship": 1,
+        "visual": 1
+      },
+      "sourceIds": [
+        "synthetic_source"
+      ]
+    }
+  ]
+}
