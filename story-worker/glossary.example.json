@@ -1,0 +1,13 @@
+{
+  "keepExact": [
+    "Captain",
+    "Skyship"
+  ],
+  "translateAs": {
+    "Quest Counter": "Quầy nhiệm vụ",
+    "Level": "Cấp độ",
+    "Yes": "Có",
+    "No": "Không"
+  }
+}
+

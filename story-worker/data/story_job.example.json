@@ -1,0 +1,57 @@
+{
+  "jobId": "synthetic-demo-v1",
+  "createdAt": "2026-08-12T00:00:00.000Z",
+  "source": "Synthetic example; contains no extracted game data",
+  "rules": {
+    "primarySource": "english",
+    "secondarySource": "japanese",
+    "target": "vi-VN"
+  },
+  "counts": {
+    "total": 3,
+    "inherited": 0,
+    "pending": 3
+  },
+  "items": [
+    {
+      "key": "DEMO-0001",
+      "file": "demo_scenario.msg",
+      "row": 0,
+      "id": "TXT_DIALOGUE_DEMO_01",
+      "subid": "",
+      "type": "scenario",
+      "english": "Welcome aboard, Captain.",
+      "japanese": "ようこそ、船長。",
+      "currentVietnamese": "",
+      "inheritedR3": false,
+      "sourceHash": "9bf8e44ffbb5232455b4328d763ac14aa9bf09432c040550d8a6cd0d5d89a575"
+    },
+    {
+      "key": "DEMO-0002",
+      "file": "demo_scenario.msg",
+      "row": 1,
+      "id": "TXT_EFFECT_DEMO_02",
+      "subid": "",
+      "type": "effect_description",
+      "english": "Power increases by {0}% after 3 seconds.",
+      "japanese": "3秒後、威力が{0}%上昇する。",
+      "currentVietnamese": "",
+      "inheritedR3": false,
+      "sourceHash": "d7c4fbd54a7cc2b95a5b927f56c83a8704eca85d2d6ed4d1eadef8d7ec2e1f88"
+    },
+    {
+      "key": "DEMO-0003",
+      "file": "demo_notes.msg",
+      "row": 0,
+      "id": "TXT_CV_DEMO_03",
+      "subid": "",
+      "type": "voice_actor_metadata",
+      "english": "Sample Performer",
+      "japanese": "サンプル出演者",
+      "currentVietnamese": "",
+      "inheritedR3": false,
+      "sourceHash": "b49f00b0ac30bef356f1240527ca0f20cb6d8a14fe13cf6873c2ec7ad1a44da9"
+    }
+  ]
+}
+
