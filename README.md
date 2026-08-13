@@ -98,6 +98,16 @@ Không đăng các tệp trong `progress/` lên issue công khai nếu chưa xó
 - Tên riêng, địa danh, Weapon, item trong shop, Sigil, Trait và Skill đã khóa được giữ English; chỉ dịch mô tả/hiệu ứng.
 - Dùng `Cấp độ` hoặc giữ `Level`; không dùng `Mức` cho level nhân vật.
 
+## Tài liệu dự án
+
+- [Roadmap](ROADMAP.md): các giai đoạn phát triển từ Worker hiện tại đến Hybrid pipeline, Context Layer và cổng kiểm thử trong game.
+- [Support](SUPPORT.md): phạm vi hỗ trợ và cách báo lỗi mà không làm lộ dữ liệu game hoặc dữ liệu cá nhân.
+- [Architecture](docs/ARCHITECTURE.md): luồng xử lý và cổng an toàn của Story Complete Worker.
+- [Input format](docs/INPUT_FORMAT.md): contract của job, glossary và config.
+- [Troubleshooting](docs/TROUBLESHOOTING.md): xử lý lỗi LM Studio, CUDA, Structured Output và resume.
+- [Release process](docs/RELEASE_PROCESS.md): versioning, checksum, kiểm thử và điều kiện trước release.
+- [Security](SECURITY.md): ranh giới mạng local, log nhạy cảm và báo cáo vấn đề bảo mật.
+
 ## Cập nhật và đóng góp
 
 - Mọi thay đổi người dùng nhìn thấy phải được ghi trong [CHANGELOG.md](CHANGELOG.md).
@@ -105,7 +115,7 @@ Không đăng các tệp trong `progress/` lên issue công khai nếu chưa xó
 - Không gọi một bản là `final`, `RC1` hoặc `v1.0` của bản Việt hóa khi chưa qua build, QA package và playtest trong game.
 - Báo lỗi theo [mẫu issue](.github/ISSUE_TEMPLATE/bug_report.md); hãy dùng ví dụ tổng hợp hoặc log đã ẩn dữ liệu game.
 
-Xem [CONTRIBUTING.md](CONTRIBUTING.md) và [quy trình phát hành](docs/RELEASE_PROCESS.md).
+Xem [CONTRIBUTING.md](CONTRIBUTING.md), [SUPPORT.md](SUPPORT.md) và [quy trình phát hành](docs/RELEASE_PROCESS.md).
 
 ## Credit
 
@@ -116,4 +126,3 @@ Khởi xướng dự án, định hướng bản dịch và playtest:
 ## Bản quyền và miễn trừ
 
 Mã nguồn gốc của repository được phát hành theo giấy phép [MIT](LICENSE). Giấy phép này không áp dụng cho Granblue Fantasy: Relink, tài sản game, nội dung trích xuất, model bên thứ ba hoặc nhãn hiệu của các chủ sở hữu tương ứng. Đây là dự án fan-made, không liên kết hay được bảo trợ bởi Cygames hoặc các bên nắm quyền liên quan.
-
