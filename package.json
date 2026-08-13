@@ -1,0 +1,16 @@
+{
+  "name": "gbfr-local-translator",
+  "version": "1.8.0",
+  "description": "Local AI translation worker and deterministic QA for GBFR Vietnamese localization",
+  "type": "module",
+  "private": false,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "check": "node --check story-worker/worker.mjs",
+    "test": "npm run check && node --test --test-concurrency=1 tests/*.test.mjs"
+  },
+  "license": "MIT"
+}
+

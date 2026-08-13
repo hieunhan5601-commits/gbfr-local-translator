@@ -1,0 +1,26 @@
+node_modules/
+tests/.tmp_*/
+*.log
+
+# Local runtime configuration and protected project data
+story-worker/config.json
+story-worker/glossary.json
+story-worker/data/*
+!story-worker/data/story_job.example.json
+**/story_job.json
+**/job_sha256.txt
+
+# Checkpoints, logs and generated translations
+**/progress/
+**/*.jsonl
+**/story_translation_report.json
+**/story_translation_results.json
+**/GBFR_Story_Translation_Result_v1.zip
+
+# Extracted or built game data
+*.msg
+game-data/
+extracted/
+build/
+dist/
+
