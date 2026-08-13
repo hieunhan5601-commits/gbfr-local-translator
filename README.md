@@ -2,7 +2,7 @@
 
 Bộ công cụ dịch cục bộ và kiểm định kỹ thuật cho dự án Việt hóa **Granblue Fantasy: Relink**. Công cụ dùng LM Studio và Qwen3.5-9B để tạo bản dịch tiếng Việt theo checkpoint, bảo vệ token/thuật ngữ, tự sửa từng câu bị QA từ chối và xuất báo cáo để tiếp tục hậu kiểm.
 
-> **Trạng thái hiện tại:** Story Complete Worker `v1.8` là bản Worker đã kiểm thử cho giai đoạn tạo baseline. Đây **không phải** patch Việt hóa cài trực tiếp vào game và kết quả `LOCAL_OK`/`REVIEW` chưa đồng nghĩa với bản dịch đã được phê duyệt.
+> **Bản public hiện tại:** Story Complete Worker [`v1.8.0`](releases/v1.8.0.md). Đây **không phải** patch Việt hóa cài trực tiếp vào game và kết quả `LOCAL_OK`/`REVIEW` chưa đồng nghĩa với bản dịch đã được phê duyệt.
 
 ## Bộ công cụ này giải quyết việc gì?
 
@@ -100,6 +100,7 @@ Không đăng các tệp trong `progress/` lên issue công khai nếu chưa xó
 
 ## Tài liệu dự án
 
+- [Release v1.8.0](releases/v1.8.0.md): tải xuống, checksum, cài đặt, verification và known limitations.
 - [Roadmap](ROADMAP.md): các giai đoạn phát triển từ Worker hiện tại đến Hybrid pipeline, Context Layer và cổng kiểm thử trong game.
 - [Support](SUPPORT.md): phạm vi hỗ trợ và cách báo lỗi mà không làm lộ dữ liệu game hoặc dữ liệu cá nhân.
 - [Architecture](docs/ARCHITECTURE.md): luồng xử lý và cổng an toàn của Story Complete Worker.
